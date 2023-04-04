@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.changing{
+  display: flex;
+  justify-content: space-around;
+}
+
+.changing h1{
+  margin: 10px 0;
+}
+
+.changing h2{
+  margin: 10px 0;
+}
+
+.changing input , .changing button{
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.form{
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.form form{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.form form .inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.form form .inputs input{
+  padding: 10px 5px;
+  margin: 2px 0;
+}
+
+.form form .inputs input:first-child{
+  margin: 0;
+}
+.form form .inputs input:last-child{
+  margin: 0;
+}
+
+.form form .button{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form form .button button{
+  padding: 10px 5px;
+  margin: 0 0 0 5px;
+}
+
+.infos{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.infos .texts .info{
+  display: flex;
+  flex-direction: column;
+}
+
+.infos .texts .info h3{
+  margin: 5px 0;
+}
+
+.infos .texts .passwordShow{
+  display: flex;
+  align-items: center;
+}
+
+.infos .texts .passwordShow button{
+  margin: 0 0 0 20px;
+  padding: 5px 5px;
+}

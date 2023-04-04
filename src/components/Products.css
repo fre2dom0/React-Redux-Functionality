@@ -1,0 +1,86 @@
+.people{
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+}
+
+.cols{
+    width: 100%;
+    display: flex;
+    padding: 0 240px;
+}
+
+.group{
+    width: 50%;
+    position: relative;
+}
+
+.group button{
+    position: absolute;
+    right: 400px;
+    padding: 0px 30px;
+}
+
+.head{
+    font-size: 20px;
+}
+
+.info{
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s linear;
+}
+
+.border{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.title{
+    margin: 30px 0 0 0;
+}
+
+.basket{
+    padding: 0 50px;
+}
+
+.basket ul{
+    margin: 10px 0;
+}
+
+.basket ul li{
+    list-style: none;
+    margin: 2px 0;
+    font-size: 18px;
+}
+
+.basket ul .button{
+    display: flex;
+    align-items: center;
+}
+
+.basket ul .button li{
+    margin: 0 30px 0 0;
+}
+
+.basket ul .button button{
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
